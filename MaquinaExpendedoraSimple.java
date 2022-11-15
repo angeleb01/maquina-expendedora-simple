@@ -54,6 +54,13 @@ public class MaquinaExpendedoraSimple {
     }
     
     /**
+     * Extrae todo el dinero que haya acumulado en la máquina
+     */
+    public void vaciarDepositoDinero() {
+        totalDineroAcumulado = 0;
+    }
+
+    /**
      * Devuelve la cantidad de dinero que el cliente actual lleva introducida
      */
     public int getBalanceClienteActual() {
